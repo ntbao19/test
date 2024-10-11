@@ -13,11 +13,6 @@ client.create_collection(
     },
 )
 
-# df = pd.read_csv('airbnb_listings.csv')  # Replace with your dataset path
-# df['combined_text'] = df['name'] + " " + df['description'] + " " + df['amenities']
-
-# model = SentenceTransformer('all-MiniLM-L6-v2')
-# embeddings = model.encode(df['combined_text'].tolist(), show_progress_bar=True)
 
 # points = []
 # for idx, row in df.iterrows():
